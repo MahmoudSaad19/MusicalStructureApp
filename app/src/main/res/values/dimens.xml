@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="repeat_and_shuffle_size">25dp</dimen>
+    <dimen name="skipSize">45dp</dimen>
+    <dimen name="play">80dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="default_image">default image</string>
+    <string name="song_data">Song Data</string>
+    <string name="category_albums">Albums</string>
+    <string name="category_artist">Artists</string>
+    <string name="category_songs">Songs</string>
+    <string name="category_playlists">Playlists</string>
+    <string name="song_name">01.Song Name</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="album_name">Unknown Album</string>
+</resources>

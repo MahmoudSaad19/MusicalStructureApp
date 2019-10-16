@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#05A1FF</color>
+    <color name="colorPrimaryDark">#0166D9</color>
+    <color name="colorAccent">#F7C800</color>
+    <color name="iconsColor">#fff</color>
+    <color name="main_screen_background">#B2DDF6</color>
+    <color name="song_text_color">#E30D3D</color>
+    <color name="song_data_text_color">#B0ACB0</color>
+</resources>
