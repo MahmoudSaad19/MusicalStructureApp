@@ -21,8 +21,14 @@ import android.widget.Toast;
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    // global variables
-    private TextView playButton,play_next,play_previous,shuffle,repeat,library;
+    // ** 6 ** global variables
+    private TextView
+            playButton,
+            play_next,
+            play_previous,
+            shuffle,
+            repeat,
+            library;
 
     /**
      * @Function this function is the entry point for any android app

@@ -9,7 +9,9 @@ package com.example.musicalstructureapp;
  */
 class MusicData {
 
-    private String song , artist ;
+    private String
+            song,
+            artist;
 
 
     /**

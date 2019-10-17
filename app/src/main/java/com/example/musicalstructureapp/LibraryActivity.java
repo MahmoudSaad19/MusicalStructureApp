@@ -16,8 +16,12 @@ import android.widget.Toast;
  */
 public class LibraryActivity extends AppCompatActivity implements View.OnClickListener {
 
-    // global variables
-    LinearLayout albums, artists, songs, playlists;
+    //** 4 ** global variables
+    private LinearLayout
+            albums,
+            artists,
+            songs,
+            playlists;
 
     /**
      * @Function this function is the entry point for any android app

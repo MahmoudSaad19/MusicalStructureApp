@@ -9,12 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PlaylistsActivity"></activity>
-        <activity android:name=".SongsActivity" />
-        <activity android:name=".AlbumsActivity" />
-        <activity android:name=".ArtistsActivity" />
-        <activity android:name=".LibraryActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".PlaylistsActivity"
+            android:label="@string/category_playlists"
+            android:parentActivityName=".LibraryActivity" />
+        <activity
+            android:name=".SongsActivity"
+            android:label="@string/category_songs"
+            android:parentActivityName=".LibraryActivity" />
+        <activity
+            android:name=".AlbumsActivity"
+            android:label="@string/category_albums"
+            android:parentActivityName=".LibraryActivity" />
+        <activity
+            android:name=".ArtistsActivity"
+            android:label="@string/category_artist"
+            android:parentActivityName=".LibraryActivity" />
+        <activity
+            android:name=".LibraryActivity"
+            android:label="Library"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Now Playing">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
